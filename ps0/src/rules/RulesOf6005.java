@@ -39,7 +39,7 @@ public class RulesOf6005 {
             boolean availableToOthers, boolean writtenAsCourseWork,
             boolean citingYourSource, boolean implementationRequired) {
     	if(writtenByYourself==true&&availableToOthers==false&& 
-    			writtenAsCourseWork==true&& citingYourSource==true&&implementationRequired==false )
+    			writtenAsCourseWork==true&& citingYourSource==true&&implementationRequired==true )
     	{
     		return true;
     	}
